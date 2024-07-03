@@ -1,16 +1,32 @@
 # User-Management-System
 
-<h3>This project is a simple yet effective user registration system implemented in C++. It allows users to register for new accounts, log in with existing credentials, and manage their profiles.</h3>
+## Overview:
+This is a simple user management system implemented in C++. It allows users to register, login, and view their profile information. The user credentials are stored in a text file.
 
-<p>Features:</p>
-<h3>1)User Registration: New users can register by providing a username, password, name, and email address.
+## Features:
+-User Registration: New users can register by providing a username, password, name, and email.<br>
+-User Login: Existing users can login using their username and password.<br>
+-Profile Viewing: Logged in users can view their profile information.<br>
 
-2)Login System: Existing users can log in using their registered username and password.
+## Files:
+-main.cpp: The main program file containing all the logic for user management.<br>
+-user-details.txt: A text file to store user credentials and information.
 
-3)Password Confirmation: Ensures password confirmation during the registration process to prevent typos.
+## Usage:
+1)Compile the program:
+```sh
+g++ main.cpp -o user_management_system
+```
 
-4)User Profile Management: Users can view their profile information upon successful login, including their username, password (masked), and name.
+2)Run the program:
+```sh
+./user_management_system
+```
 
-5)Data Persistence: User details are stored in a text file (user-details.txt) for persistent storage.
+3)Follow the on-screen instructions to register or login.
 
-6)Error Handling: Provides error handling for incorrect credentials and mismatched passwords during registration.</h3>
+## Notes:
+-Make sure 'user-details.txt' is in the same directory as the executable.
+
+## Contributing:
+If you'd like to contribute to this project, please fork the repository and submit a pull request.
