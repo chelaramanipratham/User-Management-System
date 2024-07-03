@@ -1,0 +1,2 @@
+1) A C++ compiler (such as GCC)
+2) Windows environment (due to the use of 'windows.h' and 'ShellExecute')
